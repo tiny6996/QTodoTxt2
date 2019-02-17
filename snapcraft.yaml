@@ -8,7 +8,7 @@ confinement: devmode
 parts:
   qtodotxt2:
     plugin: python
-    source: .
+    source: https://github.com/tiny6996/QTodoTxt2.git
 
 apps:
   qtodotxt2:
