@@ -1,0 +1,16 @@
+name: QTodoTxt2
+version: git
+summary: gui frontend for todo.txt files
+description: gui frontend for todo.txt files
+
+confinement: devmode
+
+parts:
+  QTodoTxt2:
+    plugin: python
+    python-version: python3
+    source: .
+
+apps:
+  QTodoTxt2:
+    command: bin/qtodotxt
