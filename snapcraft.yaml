@@ -13,4 +13,4 @@ parts:
 
 apps:
   qtodotxt2:
-    command: bin/qtodotxt
+    command: bin/qtodotxt.py
