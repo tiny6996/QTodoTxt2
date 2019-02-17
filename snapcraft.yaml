@@ -12,4 +12,4 @@ parts:
 
 apps:
   qtodotxt2:
-    command: bin/qtodotxt
+    command: qtodotxt
